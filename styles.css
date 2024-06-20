@@ -1,0 +1,130 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+#logo-nav {
+    width: 8rem;
+}
+
+#parent {
+    background-image: url('./images/de.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#child {
+    position: absolute;
+    left: 0;
+    height: 100%;
+}
+
+#space {
+    padding: 0;
+    height: 50vh;
+}
+
+.btnx:hover {
+    background-color: rgba(112, 128, 144, 0.209) !important;
+    color: black !important;
+}
+
+.fs-05 {
+    font-size: 8rem;
+}
+
+#custom-card1 {
+    background-color: #4cd681;
+}
+
+#custom-card2 {
+    background-color: #706fd3;
+}
+
+#custom-card3 {
+    background-color: #3AA6B9;
+}
+
+#card1:hover {
+    transform: scale(1.03);
+    transition: all .32s ease-in-out;
+    cursor: pointer;
+}
+
+#card2:hover {
+    transform: scale(1.03);
+    transition: all .32s ease-in-out;
+    cursor: pointer;
+}
+
+#card3:hover {
+    transform: scale(1.03);
+    transition: all .32s ease-in-out;
+    cursor: pointer;
+}
+
+
+#we-are-hireme {
+    background: url('./images/point2.png') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    color: white;
+    filter: saturate(0.1);
+}
+
+#we-are-hireme:hover {
+    filter: saturate(1);
+
+}
+
+.text-primary2 {
+    color: #0189E5 !important;
+}
+
+.text-primary-bg2 {
+    background-color: #0189E5 !important;
+
+}
+
+.btn-primary-bg2 {
+    background-color: #0189E5 !important;
+}
+
+.btn-primary-bg2:hover {
+    background-color: #037ac9 !important;
+}
+
+#rocket-career {
+  
+    border-radius: 0 !important;
+    animation: launch 2.5s infinite ease-in-out;
+}
+
+@keyframes launch {
+    0% {
+        filter: saturate(1);
+    }
+
+
+    50% {
+        filter: saturate(0.5);
+    }
+
+    100% {
+        filter: saturate(0);
+    }
+
+    0% {
+        filter: saturate(0.5);
+    }
+
+
+    50% {
+        filter: saturate(1);
+    }
+
+    100% {
+        filter: saturate(0.5);
+    }
+}
