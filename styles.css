@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", sans-serif;
+    scroll-behavior:  smooth !important;
 }
 
 #logo-nav {
@@ -128,6 +129,8 @@
         filter: saturate(0.5);
     }
 }
+
+
 /* /--------------------------------------SPLASH SCREEN ------------------------------------------------/ */
 #globe{
     display: none ;
