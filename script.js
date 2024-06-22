@@ -4,7 +4,7 @@ setTimeout(loaded, 2200);
     function loaded (){
         var load= document.getElementById('globe');
         load.removeAttribute("id");
-        // load.removeAttribute("class");
+        load.removeAttribute("class");
         setTimeout(loaded2, 200);
     }
   function loaded2(){
