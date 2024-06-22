@@ -11,4 +11,4 @@ setTimeout(loaded, 2200);
     let x = document.getElementById('splash');
     x.style.display= "none";
   }
-</script>
+
