@@ -128,3 +128,68 @@
         filter: saturate(0.5);
     }
 }
+/* /--------------------------------------SPLASH SCREEN ------------------------------------------------/ */
+#globe{
+    display: none ;
+}
+#splash {
+    background-color: white !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.splashimage {
+    background: url('./images/main-logo.png') center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    position: relative !important;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: scale(0.4);
+    z-index: 2;
+    animation: blink 2.5s ease-in-out;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale(0.4);
+    }
+
+    20% {
+        opacity: 0.2;
+        ;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    90% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+}
