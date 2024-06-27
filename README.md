@@ -1,4 +1,4 @@
-# hireme-demo
+# hireme
 Landing page for a B2B software solutions company.   
 Project details->
 1. Designed a logo and an icon for the company.  
